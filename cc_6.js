@@ -51,7 +51,7 @@ class Company {
 const myCompany = new Company ();
 const emp1 = new Employee ("ALice Burns", "HR")
 const emp2 = new Employee ("Tom Spicer", "IT")
-const mgr1 = new Manager ("Lexy Hall", "IT")
+const mgr1 = new Manager ("Lexy Hall", "IT", 12)
 myCompany.addEmployee(emp1);
 myCompany.addEmployee(emp2);
 myCompany.addEmployee(mgr1);
